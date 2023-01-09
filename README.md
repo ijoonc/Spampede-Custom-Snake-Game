@@ -5,10 +5,7 @@
 
 ### The user will have to eat spam to elongate, and the game will be over if the user hits a wall, itself, or runs out of space.
 
-### There is also an "AI-Mode" where it features an automated, optimal gameplay by the AI. It will continue to play the game until there 
-### are no possible paths to traverse to from its current location.
-
-
+### There is also an "AI-Mode" where it features an automated, optimal gameplay by the AI. It will continue to play the game until there are no possible paths to traverse to from its current location.
 
 ### Utilizes a Java Applet application to run the game!
 

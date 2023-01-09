@@ -7,7 +7,7 @@
 
 ### There is also an "AI-Mode" where it features an automated, optimal gameplay by the AI. It will continue to play the game until there are no possible paths to traverse to from its current location.
 
-### Utilizes a Java Applet application to run the game!
+### Utilizes a Java Applet application to run the game! Run the game on the SpampedeBrain.java file!
 
 ### In order to play, all files must be downloaded and opened on IDE (preferably Eclipse).
 ### Controls: i - up, j - left, k- down, l - right, r - reverse, a - AI Mode

@@ -1,8 +1,7 @@
 # Spampede: Custom-Snake-Game
 
 ### This repository contains all the files for my Spampede Game. 
-### It contains a user interface and backend functionality that is similar to that of the "Snake Game"
-### but it has my own twist. 
+### It contains a user interface and backend functionality that is similar to that of the "Snake Game" but it has my own twist. 
 
 ### The user will have to eat spam to elongate, and the game will be over if the user hits a wall, itself, or runs out of space.
 

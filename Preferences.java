@@ -7,7 +7,7 @@ import java.awt.Font;
  * Represents settings for Spampede. Constants are stored in this file to avoid
  * "magic strings" and "magic numbers".
  * 
- * @author CS60 instructors
+ * @author Isaac Chung with the help of professors
  */
 final class Preferences {
 	/* ------- */

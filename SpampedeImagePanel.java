@@ -9,9 +9,8 @@ import java.awt.Graphics;
 /**
  * Implements low-level graphics work.
  * 
- * DO NOT MODIFY.
  * 
- * @author CS60 instructors
+ * @author Isaac Chung with the help of professors
  */
 public class SpampedeImagePanel extends JPanel {
 

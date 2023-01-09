@@ -7,7 +7,7 @@ import java.awt.event.KeyEvent;
  * deciding how to move the snake, as well as handling keystrokes and
  * controlling the timesteps that move the snake forward.
  * 
- * @author CS60 instructors
+ * @author Isaac Chung with the help of professors
  */
 public class SpampedeBrain extends SpampedeBrainParent {
 
@@ -125,7 +125,7 @@ public class SpampedeBrain extends SpampedeBrainParent {
 		case LEFT:
 			this.theData.setDirectionWest();
 			break;
-		default:
+		case RIGHT:
 			this.theData.setDirectionEast();
 			break;
 		}

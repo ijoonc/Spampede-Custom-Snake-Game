@@ -7,7 +7,7 @@ import java.awt.Image;
 /**
  * The "view" in MVC that is responsible for drawing the board on the screen.
  * 
- * @author CS60 instructors
+ * @author Isaac Chung with the help of professors
  */
 class SpampedeDisplay {
 

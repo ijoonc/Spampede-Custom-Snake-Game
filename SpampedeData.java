@@ -11,7 +11,7 @@ import javax.swing.event.CellEditorListener;
  * The "model" in MVC that is responsible for storing all the data for the
  * board.
  * 
- * @author CS60 instructors
+ * @author Isaac Chung with the help of professors
  */
 class SpampedeData {
 	/**
@@ -151,11 +151,6 @@ class SpampedeData {
 	/**
 	 * Accesses a cell at a particular location.
 	 * 
-	 * <p>
-	 * This method should really be private. We make it public to allow our unit
-	 * tests to use it, but it should not be called from SpampedeBrain or
-	 * SpampedeDisplay.
-	 * </p>
 	 * 
 	 * @param r - the row to access, between 0 and numRows-1 inclusive
 	 * @param c - the column to access, between 0 and numCols-1 inclusive
@@ -245,10 +240,6 @@ class SpampedeData {
 	/**
 	 * Removes the oldest piece of un-eaten spam.
 	 * 
-	 * <p>
-	 * The function is not used in the given code, but it might be useful if you
-	 * want to extend the game.
-	 * </p>
 	 */
 	@SuppressWarnings("unused")
 	private void removeSpam() {
@@ -500,6 +491,7 @@ class SpampedeData {
 		// if the search fails, just move somewhere
 		return this.getRandomNeighboringCell(snakeHead);
 	}
+
 	/**
 	 * Follows the traceback pointers from the closest spam cell to decide where the
 	 * head should move. Specifically, follows the parent pointers back from the
@@ -621,11 +613,8 @@ class SpampedeData {
 			}
 		}
 	}
-
-	/* -------------------------------------------------------------------- */
-	/* Testing Infrastructure - You do not need to understand these methods */
-	/* -------------------------------------------------------------------- */
-
+	
+	
 	/**
 	 * Pictures of test boards at http://tinyurl.com/spampedeTestBoards
 	 */

@@ -5,7 +5,7 @@ import java.awt.Color;
 /**
  * Represents a single cell within a board.
  * 
- * @author CS60 instructors
+ * @author Isaac Chung with the help of professors
  */
 class BoardCell {
 
@@ -105,6 +105,11 @@ class BoardCell {
 	/* Modify basic info about a cell */
 	/* ------------------------------ */
 
+	/** Marks this BoardCell as spam. */
+	public void becomeWall() {
+		this.myCellType = CellType.WALL;
+	}
+	
 	/** Marks this BoardCell as spam. */
 	public void becomeSpam() {
 		this.myCellType = CellType.SPAM;

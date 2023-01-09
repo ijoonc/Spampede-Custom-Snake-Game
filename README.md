@@ -8,6 +8,8 @@
 ### There is also an "AI-Mode" where it features an automated, optimal gameplay by the AI. It will continue to play the game until there 
 ### are no possible paths to traverse to from its current location.
 
+
+
 ### Utilizes a Java Applet application to run the game!
 
 ### In order to play, all files must be downloaded and opened on IDE (preferably Eclipse).

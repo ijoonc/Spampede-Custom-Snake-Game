@@ -1,4 +1,4 @@
-### Spampede: Custom-Snake-Game
+### Spampede - Custom Snake Game
 
 This repository contains all the files for my *Spampede Game*. 
 It contains a user interface and backend functionality that is similar to the "Snake Game," but it contains my own twist. 
